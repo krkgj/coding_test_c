@@ -1,18 +1,13 @@
 {
   "configurations": [
     {
-      "name": "Win32",
+      "name": "Linux",
       "includePath": ["${workspaceFolder}/**"],
-      "defines": ["_DEBUG", "UNICODE", "_UNICODE"],
-      "compilerPath": "/usr/bin/g++",
-      "cStandard": "c11",
+      "defines": [],
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
       "cppStandard": "c++17",
-      "intelliSenseMode": "clang-x64",
-      "browse": {
-        "path": ["${workspaceFolder}"],
-        "limitSymbolsToIncludedHeaders": true,
-        "databaseFilename": ""
-      }
+      "intelliSenseMode": "gcc-x64"
     }
   ],
   "version": 4
