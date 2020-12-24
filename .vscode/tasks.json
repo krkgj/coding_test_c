@@ -1,0 +1,45 @@
+{
+  "version": "2.0.0",
+  "windows": {
+    "options": {
+      "shell": {
+        "executable": "c:\\windows\\sysnative\\bash.exe",
+        "args": ["-c"]
+      }
+    }
+  },
+  "tasks": [
+    {
+      "label": "build c on WSL",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "-o",
+        "/home/kyeongjin/projects/c_projects/coding_test/1_그리디_구현/${fileBasenameNoExtension}.out",
+        "${fileBasenameNoExtension}.c"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "build cpp on WSL",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "-o",
+        "/home/kyeongjin/projects/c_projects/coding_test/1_그리디_구현/${fileBasenameNoExtension}.out",
+        "${fileBasenameNoExtension}.cpp"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
