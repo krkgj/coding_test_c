@@ -1,4 +1,4 @@
-// 그리디 & 구현 - 1. 거스름 돈
+// 그리디 - 1. 거스름 돈
 #include <bits/stdc++.h>
 
 using namespace std;
