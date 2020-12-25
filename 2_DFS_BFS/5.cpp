@@ -8,7 +8,6 @@ vector<int> graph[9];
 
 void bfs(int start) {
     queue<int> q;
-
     // queue에 start node인 1을 push
     q.push(start);
     // 노드 1의 방문 처리를 한다.
